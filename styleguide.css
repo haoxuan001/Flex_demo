@@ -1,0 +1,188 @@
+:root {
+  --body-font-family: "Inter", Helvetica;
+  --body-font-weight: 400;
+  --body-font-size: 16px;
+  --body-letter-spacing: 0px;
+  --body-line-height: normal;
+  --body-font-style: normal;
+  --small-font-family: "Inter", Helvetica;
+  --small-font-weight: 300;
+  --small-font-size: 12px;
+  --small-letter-spacing: 0px;
+  --small-line-height: normal;
+  --small-font-style: normal;
+  --caption-font-family: "Inter", Helvetica;
+  --caption-font-weight: 300;
+  --caption-font-size: 14px;
+  --caption-letter-spacing: 0px;
+  --caption-line-height: normal;
+  --caption-font-style: normal;
+  --body-bold-font-family: "Inter", Helvetica;
+  --body-bold-font-weight: 600;
+  --body-bold-font-size: 16px;
+  --body-bold-letter-spacing: 0px;
+  --body-bold-line-height: normal;
+  --body-bold-font-style: normal;
+  --heading-secondary-font-family: "Inter", Helvetica;
+  --heading-secondary-font-weight: 700;
+  --heading-secondary-font-size: 20px;
+  --heading-secondary-letter-spacing: 0px;
+  --heading-secondary-line-height: normal;
+  --heading-secondary-font-style: normal;
+  --heading-primary-font-family: "Inter", Helvetica;
+  --heading-primary-font-weight: 700;
+  --heading-primary-font-size: 32px;
+  --heading-primary-letter-spacing: 0px;
+  --heading-primary-line-height: normal;
+  --heading-primary-font-style: normal;
+  --h-primary-font-family: "Inter", Helvetica;
+  --h-primary-font-weight: 700;
+  --h-primary-font-size: 32px;
+  --h-primary-letter-spacing: 0.12800000190734864px;
+  --h-primary-line-height: normal;
+  --h-primary-font-style: normal;
+  --h-secondary-bold-font-family: "Inter", Helvetica;
+  --h-secondary-bold-font-weight: 700;
+  --h-secondary-bold-font-size: 20px;
+  --h-secondary-bold-letter-spacing: 0.0800000011920929px;
+  --h-secondary-bold-line-height: normal;
+  --h-secondary-bold-font-style: normal;
+  --heading-font-family: "Inter", Helvetica;
+  --heading-font-weight: 600;
+  --heading-font-size: 24px;
+  --heading-letter-spacing: -0.48px;
+  --heading-line-height: 120.00000476837158%;
+  --heading-font-style: normal;
+  --m3-headline-small-font-family: "Roboto", Helvetica;
+  --m3-headline-small-font-weight: 400;
+  --m3-headline-small-font-size: 24px;
+  --m3-headline-small-letter-spacing: 0px;
+  --m3-headline-small-line-height: 32px;
+  --m3-headline-small-font-style: normal;
+  --body-base-font-family: "Inter", Helvetica;
+  --body-base-font-weight: 400;
+  --body-base-font-size: 16px;
+  --body-base-letter-spacing: 0px;
+  --body-base-line-height: 139.9999976158142%;
+  --body-base-font-style: normal;
+  --single-line-body-base-font-family: "Inter", Helvetica;
+  --single-line-body-base-font-weight: 400;
+  --single-line-body-base-font-size: 16px;
+  --single-line-body-base-letter-spacing: 0px;
+  --single-line-body-base-line-height: 100%;
+  --single-line-body-base-font-style: normal;
+  --h-secondary-font-family: "Inter", Helvetica;
+  --h-secondary-font-weight: 400;
+  --h-secondary-font-size: 16px;
+  --h-secondary-letter-spacing: 0.06400000095367432px;
+  --h-secondary-line-height: normal;
+  --h-secondary-font-style: normal;
+  --subheading-font-family: "Inter", Helvetica;
+  --subheading-font-weight: 400;
+  --subheading-font-size: 20px;
+  --subheading-letter-spacing: 0px;
+  --subheading-line-height: 120.00000476837158%;
+  --subheading-font-style: normal;
+  --collection-1-brand-puple: rgba(166, 14, 255, 1);
+  --collection-1-brand-light: rgba(239, 229, 255, 1);
+  --collection-1-brand-dark: rgba(68, 0, 179, 1);
+  --collection-1-neutral-grey100: rgba(255, 255, 255, 1);
+  --collection-1-neutral-grey200: rgba(234, 234, 234, 1);
+  --collection-1-neutral-grey300: rgba(191, 191, 191, 1);
+  --collection-1-color: rgba(255, 255, 255, 1);
+  --collection-1-neutral-grey400: rgba(149, 149, 149, 1);
+  --collection-1-neutral-grey500: rgba(106, 106, 106, 1);
+  --collection-1-neutral-grey600: rgba(64, 64, 64, 1);
+  --collection-1-color-2: rgba(255, 255, 255, 1);
+  --collection-1-neutral-grey700: rgba(21, 21, 21, 1);
+  --color-text-default-secondary: var(--color-primitives-gray-500);
+  --color-border-neutral-secondary: var(--color-primitives-slate-600);
+  --color-text-default-default: var(--color-primitives-gray-900);
+  --color-background-neutral-tertiary: var(--color-primitives-slate-200);
+  --color-background-default-default: var(--color-primitives-white-1000);
+  --color-border-default-default: var(--color-primitives-gray-300);
+  --color-text-neutral-default: var(--color-primitives-slate-900);
+  --color-text-brand-on-brand: var(--color-primitives-brand-100);
+  --color-background-brand-default: var(--color-primitives-brand-800);
+  --color-border-brand-default: var(--color-primitives-brand-800);
+  --color-background-brand-hover: var(--color-primitives-brand-900);
+  --color-background-neutral-tertiary-hover: var(--color-primitives-slate-300);
+  --size-space-200: 8px;
+  --size-space-300: 12px;
+  --size-radius-200: 8px;
+  --size-space-400: 16px;
+  --size-space-600: 24px;
+  --size-space-1200: 48px;
+  --size-space-1600: 64px;
+  --color-primitives-gray-500: rgba(117, 117, 117, 1);
+  --color-primitives-white-500: rgba(255, 255, 255, 0.7);
+  --color-primitives-slate-600: rgba(118, 118, 118, 1);
+  --color-primitives-slate-500: rgba(148, 148, 148, 1);
+  --color-primitives-slate-200: rgba(227, 227, 227, 1);
+  --color-primitives-gray-900: rgba(30, 30, 30, 1);
+  --color-primitives-white-1000: rgba(255, 255, 255, 1);
+  --color-primitives-slate-900: rgba(48, 48, 48, 1);
+  --color-primitives-gray-300: rgba(217, 217, 217, 1);
+  --color-primitives-gray-600: rgba(68, 68, 68, 1);
+  --color-primitives-brand-100: rgba(245, 245, 245, 1);
+  --color-primitives-brand-900: rgba(30, 30, 30, 1);
+  --color-primitives-brand-800: rgba(44, 44, 44, 1);
+  --color-primitives-slate-300: rgba(205, 205, 205, 1);
+  --color-primitives-brand-300: rgba(217, 217, 217, 1);
+  --color-primitives-slate-1000: rgba(36, 36, 36, 1);
+  --responsive-device-width: 1200px;
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-color-mode="SDS-light">
+      <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-color-mode="SDS-light"] {
+  --color-text-default-secondary: var(--color-primitives-gray-500);
+  --color-border-neutral-secondary: var(--color-primitives-slate-600);
+  --color-text-default-default: var(--color-primitives-gray-900);
+  --color-background-neutral-tertiary: var(--color-primitives-slate-200);
+  --color-background-default-default: var(--color-primitives-white-1000);
+  --color-border-default-default: var(--color-primitives-gray-300);
+  --color-text-neutral-default: var(--color-primitives-slate-900);
+  --color-text-brand-on-brand: var(--color-primitives-brand-100);
+  --color-background-brand-default: var(--color-primitives-brand-800);
+  --color-border-brand-default: var(--color-primitives-brand-800);
+  --color-background-brand-hover: var(--color-primitives-brand-900);
+  --color-background-neutral-tertiary-hover: var(--color-primitives-slate-300);
+}
+
+[data-color-mode="SDS-dark"] {
+  --color-text-default-secondary: var(--color-primitives-white-500);
+  --color-border-neutral-secondary: var(--color-primitives-slate-500);
+  --color-text-default-default: var(--color-primitives-white-1000);
+  --color-background-neutral-tertiary: var(--color-primitives-slate-900);
+  --color-background-default-default: var(--color-primitives-gray-900);
+  --color-border-default-default: var(--color-primitives-gray-600);
+  --color-text-neutral-default: var(--color-primitives-slate-200);
+  --color-text-brand-on-brand: var(--color-primitives-brand-900);
+  --color-background-brand-default: var(--color-primitives-brand-100);
+  --color-border-brand-default: var(--color-primitives-brand-100);
+  --color-background-brand-hover: var(--color-primitives-brand-300);
+  --color-background-neutral-tertiary-hover: var(--color-primitives-slate-1000);
+}
+
+[data-responsive-mode="desktop"] {
+  --responsive-device-width: 1200px;
+}
+
+[data-responsive-mode="mobile"] {
+  --responsive-device-width: 375px;
+}
+
+[data-responsive-mode="tablet"] {
+  --responsive-device-width: 768px;
+}
